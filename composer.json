@@ -1,0 +1,17 @@
+{
+    "name": "chazz/application",
+    "authors": [
+        {
+            "name": "chazz",
+            "email": "chazzbg@gmail.com"
+        }
+    ],
+    "require": {
+        "salsify/json-streaming-parser": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    }
+}
